@@ -124,6 +124,10 @@ p {
   background-color: #ff4c68;
 }
 
+#currentlyinformation {
+  background-color: #ff4c68;
+}
+
 .testimonial-text {
   font-size: 2rem;
   line-height: 1.5;
@@ -137,12 +141,27 @@ p {
   margin: 10px;
 }
 
+.currently-image {
+  width: 50%;
+  margin: 10px;
+}
+.BIG-text {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-family: 'Ubuntu';
+}
+
 .information-text {
   font-size: 2rem;
   line-height: 1.5;
   font-family: 'Ubuntu';
 }
 
+.currently-text {
+  font-size: 2rem;
+  font-family: 'Ubuntu';
+  font-weight: normal;
+}
 /* Footer Section */
 
 .social-icon {
