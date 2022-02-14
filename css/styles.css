@@ -25,6 +25,11 @@ p {
   line-height: 1.5;
 }
 
+.line-sections{
+  color:#ff4c68;
+  height: 8px;
+}
+
 /* Containers */
 
 .container-fluid{
@@ -94,6 +99,14 @@ p {
   margin-right:auto;
 }
 
+.titles-image {
+  position: static;
+  width: 70%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 /* Features Section */
 
 #features {
@@ -145,6 +158,7 @@ p {
   width: 50%;
   margin: 10px;
 }
+
 .BIG-text {
   font-size: 4rem;
   line-height: 1.5;
