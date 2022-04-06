@@ -12,12 +12,21 @@ p {
   color: #8f8f8f;
 }
 
+.caption {
+  color: #333333;
+}
+
+.row {
+  padding: 0;
+}
 /* Headings */
 
 .big-heading {
   font-family: 'Montserrat-Black';
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   line-height: 1.5;
+  color: #ff4c68;
+  text-align: center;
 }
 
 .section-heading {
@@ -33,7 +42,7 @@ p {
 /* Containers */
 
 .container-fluid{
-  padding: 7% 15%;
+  padding: 7% 7%;
 }
 
 /* Sections */
@@ -43,6 +52,12 @@ p {
   color: #fff;
 }
 
+.second-section {
+  background-color: #F2EFE0;
+  color: #fceceb;
+
+}
+
 .white-section {
   background-color: #fff;
 }
@@ -50,22 +65,34 @@ p {
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 200 0 0px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  left:0;
+  background-color: #ff4c68;
+  width:100%;
+  margin-left: 0;
+  margin-right: 0;
+
 }
 
 .navbar-brand {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
   font-weight: bold;
+  padding: 0 0 0 50px;
+
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 25px;
 }
 
 .big-heading {
   font-family: 'Ubuntu';
 }
+
 .nav-link {
   font-size: 1.2rem;
   font-family: 'Ubuntu';
@@ -86,7 +113,7 @@ p {
 }
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 10% 10% 7%;
 }
 
 /* Title Image */
@@ -99,9 +126,11 @@ p {
   margin-right:auto;
 }
 
+
+
 .titles-image {
   position: static;
-  width: 70%;
+  width: 100%;
   display:block;
   margin-left:auto;
   margin-right:auto;
@@ -116,10 +145,18 @@ p {
 .feature-title {
   font-size: 1.5rem;
   font-family: 'Ubuntu';
+  color:#ff4c68;
 }
 
+.features-title {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu';
+  color:#fff;
+}
+
+
 .feature-box {
-  padding: 4.5%;
+  padding: 2%;
 }
 
 .icon {
@@ -130,6 +167,46 @@ p {
 .icon:hover {
   color: #ff4c68;
 }
+
+
+/* lines */
+
+hr {
+    margin: 40px 0px;
+    border-color: #727878;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+hr {
+    height: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
 
 /* Testimonial Section */
 
